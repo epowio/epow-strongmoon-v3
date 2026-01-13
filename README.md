@@ -11,10 +11,10 @@ This repo assumes ETHW mainnet (chainId 10001) with a WETHW wrapper and a Uniswa
 ## Deployed contract (ETHW mainnet)
 
 - BondingCurve contract address:  
-  `0x9618602879D026c706796329Cd153DE3617cCCa1`
+  `0x1a02b82Bb5A3E9544666D52a46aAE73fb4E62f6f`  
 
 - Verified on OKLink (EthereumPoW):  
-  https://www.oklink.com/ethereum-pow/address/0x9618602879d026c706796329cd153de3617ccca1/contract
+  https://www.oklink.com/ethereum-pow/address/0x1a02b82bb5a3e9544666d52a46aae73fb4e62f6f/contract
 
 ---
 

@@ -55,12 +55,12 @@ interface IWETH {
 // -------------------------------
 contract BondingCurve is ReentrancyGuard { 
     // 16,156 Ethw
-    // uint256 public constant INITIAL_PRICE_WEI = 50050000;
-    // uint256 public constant INCREMENT_WEI     = 50000; 
+    uint256 public constant INITIAL_PRICE_WEI = 50050000;
+    uint256 public constant INCREMENT_WEI     = 50000; 
 
     // For Testing on ETHW Mainnet 
-    uint256 public constant INITIAL_PRICE_WEI = 50050;
-    uint256 public constant INCREMENT_WEI     = 50;      // Linear increment per token along the curve
+    // uint256 public constant INITIAL_PRICE_WEI = 50050;
+    // uint256 public constant INCREMENT_WEI     = 50;      // Linear increment per token along the curve
 
     uint256 public constant MAX_SUPPLY     = 1_000_000_000; // Absolute hard cap (whole tokens)
     uint256 public constant CURVE_CAP      = 800_000_000;   // Curve stops allowing buys at this supply
